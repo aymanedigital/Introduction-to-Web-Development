@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#ulnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704499200&semt=ais);
+    position: fixed;
+    width: 95%;
+    top: 0;
+}
+
+#linav {
+    float: right;
+    background-color: green;
+}
+
+#linav, #linav a {
+    display: block;
+    color: white;
+    float: right;
+    list-style: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+#title, #title a {
+    display: block;
+    color: white;
+    float: left;
+    list-style: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    background-color: green;
+}
+
+#linav:hover {
+    background-color: #2C5152;
+}
+
+#linav a:hover {
+    color: white;
+    text-shadow: 3px 8px 8px yellow;
+}
+
+
+
+#heading1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704499200&semt=ais);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+
+}
+
+#hr1{
+    border: 2px solid green;
+    width: 240px;
+    margin: auto;
+    transition: width 2s, height 4s;
+}
+
+#hr1:hover{
+    width: 600px;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+
+#img1{
+    float: right;
+    border: 1px dotted black;
+    width: 250px;
+    transition: width 2s;
+}
+
+#img1:hover{
+    width: 400px;
+}
+
+#hr2{
+    border: 2px solid blue;
+    width: 120px;
+    margin: auto;
+}
+
+.list1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #2C5152;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 813px) {
+    body{
+        margin: 18px 18px;
+    }
+    
+    #heading1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704499200&semt=ais);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 18px;
+        margin-bottom: auto;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+    
+    }
+    
+    #hr1{
+        border: 2px solid green;
+        width: 240px;
+        margin: auto;
+        transition: width 2s, height 4s;
+    }
+    
+    #hr1:hover{
+        width: 340px;
+    }
+    
+    h3{
+        font-size: 25px;
+        font-family: 'Inconsolata', monospace;
+        text-align: center;
+    }
+    
+    p{
+        font-family: 'Inconsolata', monospace;
+        font-size: 20px;
+    }
+    
+    #img1{
+        float: right;
+        border: 1px solid black;
+        width: 170px;
+        transition: width 2s;
+    }
+    
+    #img1:hover{
+        width: 350px;
+    }
+    
+    #hr2{
+        border: 2px solid blue;
+        width: 75px;
+        margin: auto;
+    }
+    
+    .list1{
+        font-family: 'Inconsolata', monospace;
+        font-size: 15px;
+    }
+
+    /* navbar */
+
+    #ulnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: none;
+  }
+  
+#linav {
+    float: none;
+    background-color: none;
+  }
+  
+#linav ,#linav a {
+    display: none;
+    color: none;
+    float: none;
+    list-style: none;
+    padding: none;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    background-color: none;
+    font-size: none;
+    width: none;
+    text-align: none;
+}
+
+#title , #title a {
+    display: none;
+    color: none;
+    float: none;
+    list-style: none;
+    padding: none;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    background-color: none;
+    font-size: none;
+    width: none;
+    text-align: none;
+}
+  
+#linav:hover {
+    background-color: #2C5152;
+}
+
+#linav a:hover {
+    color: white;
+    text-shadow: 3px 8px 8px yellow;
+}
+
+footer{
+    background-color: #2C5152;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+}
